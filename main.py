@@ -1,11 +1,10 @@
 import sqlite3
 import asyncio
 import logging
-import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "BURAYA_TOKEN_GELECEK")
+BOT_TOKEN = "" # Token buraya eklenecek
 
 dp = Dispatcher()
 
